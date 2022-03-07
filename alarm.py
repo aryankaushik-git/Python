@@ -22,7 +22,6 @@ def actual_time():
     set_alarm_timer = f"{hour.get()}:{min.get()}:{sec.get()}"
     alarm(set_alarm_timer)
 
-    
 clock = Tk()
 
 clock.title("Alarm")
